@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/xml/advanced_rc_settings.xml",
+        "source": "/home/benbroce/.android/build-cache/97235247e34e9f1a0d1884e37ee257a31c5e9939/output/res/xml/advanced_rc_settings.xml"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/xml/squarebot.xml",
+        "source": "/home/benbroce/.android/build-cache/97235247e34e9f1a0d1884e37ee257a31c5e9939/output/res/xml/squarebot.xml"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/xml/pushbot.xml",
+        "source": "/home/benbroce/.android/build-cache/97235247e34e9f1a0d1884e37ee257a31c5e9939/output/res/xml/pushbot.xml"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/xml/k9usbbot.xml",
+        "source": "/home/benbroce/.android/build-cache/97235247e34e9f1a0d1884e37ee257a31c5e9939/output/res/xml/k9usbbot.xml"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/xml/app_settings.xml",
+        "source": "/home/benbroce/Desktop/robotics/ftc_app/FtcRobotController/build/intermediates/bundles/default/res/xml/app_settings.xml"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/xml/device_filter.xml",
+        "source": "/home/benbroce/Desktop/robotics/ftc_app/FtcRobotController/build/intermediates/bundles/default/res/xml/device_filter.xml"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/xml/rev_scoot.xml",
+        "source": "/home/benbroce/.android/build-cache/97235247e34e9f1a0d1884e37ee257a31c5e9939/output/res/xml/rev_scoot.xml"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/xml/k9legacybot.xml",
+        "source": "/home/benbroce/.android/build-cache/97235247e34e9f1a0d1884e37ee257a31c5e9939/output/res/xml/k9legacybot.xml"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/xml/maxmodules.xml",
+        "source": "/home/benbroce/.android/build-cache/97235247e34e9f1a0d1884e37ee257a31c5e9939/output/res/xml/maxmodules.xml"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/xml/pushbotsens.xml",
+        "source": "/home/benbroce/.android/build-cache/97235247e34e9f1a0d1884e37ee257a31c5e9939/output/res/xml/pushbotsens.xml"
+    }
+]

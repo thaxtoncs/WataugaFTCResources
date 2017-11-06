@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/raw/cube_mesh_fragment_shader.glsl",
+        "source": "/home/benbroce/.android/build-cache/caf23143325b3009b3e6238ee48316c550d82a79/output/res/raw/cube_mesh_fragment_shader.glsl"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/raw/warningmessage.wav",
+        "source": "/home/benbroce/.android/build-cache/97235247e34e9f1a0d1884e37ee257a31c5e9939/output/res/raw/warningmessage.wav"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/raw/nxtstartupsound.wav",
+        "source": "/home/benbroce/.android/build-cache/97235247e34e9f1a0d1884e37ee257a31c5e9939/output/res/raw/nxtstartupsound.wav"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/raw/texture_fragment_shader.glsl",
+        "source": "/home/benbroce/.android/build-cache/caf23143325b3009b3e6238ee48316c550d82a79/output/res/raw/texture_fragment_shader.glsl"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/raw/texture_vertex_shader.glsl",
+        "source": "/home/benbroce/.android/build-cache/caf23143325b3009b3e6238ee48316c550d82a79/output/res/raw/texture_vertex_shader.glsl"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/raw/chimedisconnect.wav",
+        "source": "/home/benbroce/.android/build-cache/97235247e34e9f1a0d1884e37ee257a31c5e9939/output/res/raw/chimedisconnect.wav"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/raw/chimeconnect.wav",
+        "source": "/home/benbroce/.android/build-cache/97235247e34e9f1a0d1884e37ee257a31c5e9939/output/res/raw/chimeconnect.wav"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/raw/cube_mesh_vertex_shader.glsl",
+        "source": "/home/benbroce/.android/build-cache/caf23143325b3009b3e6238ee48316c550d82a79/output/res/raw/cube_mesh_vertex_shader.glsl"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/raw/color_fragment_shader.glsl",
+        "source": "/home/benbroce/.android/build-cache/caf23143325b3009b3e6238ee48316c550d82a79/output/res/raw/color_fragment_shader.glsl"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/raw/simple_vertex_shader.glsl",
+        "source": "/home/benbroce/.android/build-cache/caf23143325b3009b3e6238ee48316c550d82a79/output/res/raw/simple_vertex_shader.glsl"
+    },
+    {
+        "merged": "/home/benbroce/Desktop/robotics/ftc_app/WataugaFTCResources/build/intermediates/res/merged/debug/raw/errormessage.wav",
+        "source": "/home/benbroce/.android/build-cache/97235247e34e9f1a0d1884e37ee257a31c5e9939/output/res/raw/errormessage.wav"
+    }
+]
