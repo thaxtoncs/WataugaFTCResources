@@ -9,7 +9,7 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 import com.qualcomm.robotcore.util.Range;
 import org.firstinspires.ftc.robotcore.external.navigation.Acceleration;
 
-// Hardware config for 8190
+// Hardware config for HoloX Drive
 public class HWholoX
 {
     // Public OpMode members
@@ -46,10 +46,10 @@ public class HWholoX
         mtrBR.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
 
         // Set all motors to zero power
-        mtrL.setPower(0);
-        mtrR.setPower(0);
-        mtrF.setPower(0);
-        mtrB.setPower(0);
+        mtrFL.setPower(0);
+        mtrFR.setPower(0);
+        mtrBL.setPower(0);
+        mtrBR.setPower(0);
 
         /* // Define and initialize ALL installed servos.
         rightClaw = hwMap.servo.get("right_hand");
