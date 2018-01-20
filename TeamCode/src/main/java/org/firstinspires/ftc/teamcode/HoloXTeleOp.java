@@ -8,7 +8,7 @@ import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.ElapsedTime;
 import com.qualcomm.robotcore.util.Range;
-
+@TeleOp(name = "TeleOp: HoloX Without Compass Correction", group = "TeleOp")
 public class BasicOpMode_Linear extends OpMode {
     HWholoX robot = new HWholoX();
     // left joystick y-value
