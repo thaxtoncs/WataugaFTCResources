@@ -9,29 +9,28 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.ElapsedTime;
 import com.qualcomm.robotcore.util.Range;
 @TeleOp(name = "TeleOp: HoloX Without Compass Correction", group = "TeleOp")
-public class BasicOpMode_Linear extends OpMode {
+public class HoloXTeleOp extends OpMode {
     
     // initialize the robot
     HWholoX robot = new HWholoX();
     
     // left joystick y-value
-    int Lx;
+    //int Lx;
     
     // left joystick x-value
-    int Ly;
+    //int Ly;
     
     // left trigger value
-    int lTrig;
+    //int lTrig;
     
     // right trigger value
-    int rTrig;
+    //int rTrig;
     
     // angle of the left joystick 
-    int angle;
+    //int angle;
     
     // power of motors BL and FR
     int positivePower;
-    
     // power of motors BR and FL
     int negativePower;
     
@@ -45,13 +44,13 @@ public class BasicOpMode_Linear extends OpMode {
     
     public void loop(){
         // set the variables for I/O
-        lTrig = Range.clip(robot.gamepad1.right_trigger, 0, 1);
-        rTrig = Range.clip(robot.gamepad1.left_trigger, 0, 1);
-        Lx = Range.clip(robot.gamepad1.left_stick_x, -1, 1);
-        Ly = Range.clip(robot.gamepad1.left_stick_y, -1, 1);
+        //lTrig = HoloX.triggerRead(left, 0, 1);
+        //rTrig = HoloX.triggerRead(right, 0, 1);
+        //Lx = HoloX.stickRead(left, x, -1, 1);
+        //Ly = HoloX.stickRead(left, y, -1, 1);
         
         // math to convert the joystick position to an angle value
-        angle = ((Math.atan2(Ly, Lx) * (180 / Math.PI)) + directionFix);
+        //angle = ((Math.atan2(Ly, Lx) * (180 / Math.PI)) + directionFix);
         
         //positivePower = Math.cos(angle) * lTrig;
         //negativePower = Math.sin(angle) * lTrig;
@@ -64,20 +63,20 @@ public class BasicOpMode_Linear extends OpMode {
         
         // if the toggle is true run at full speed
         if (speedToggle = true){
-            positivePower = Math.cos(angle);
-            negativePower = Math.sin(angle);
+            positivePower = Math.cos(HoloX.getStickAngle(left) + directionFix);
+            negativePower = Math.sin(HoloX.getStickAngle(left) + directionFix);
         }
         
         // if not run at half speed
         else{
-            positivePower = Math.cos(angle) * 0.5;
-            negativePower = Math.sin(angle) * 0.5;
+            positivePower = Math.cos(HoloX.getStickAngle(left) + directionFix) * 0.5;
+            negativePower = Math.sin(HoloX.getStickAngle(left) + directionFix) * 0.5;
         }
         
         // set the power for the motors
         robot.motorFL.setPower(positivePower);
-        robot.motorBR.setPower(positivePower);
+        robot.motorBR.setPower(-positivePower);
         robot.motorFR.setPower(negativePower);
-        robot.motorBL.setPower(negativePower);
+        robot.motorBL.setPower(-negativePower);
    }
 }
