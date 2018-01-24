@@ -7,12 +7,22 @@ import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.ElapsedTime;
 import com.qualcomm.robotcore.util.Range;
+import com.qualcomm.robotcore.hardware.ColorSensor;
+
+ColorSensor sensorColor;
 
 public class HoloX{
   public HoloX(){
   
   }
-  public triggerRead (String trigger, int min, int max){
+  sensorColor = hardwareMap.get(ColorSensor.class, "sensor_color_distance");
+  public void moveRobot(int direction, int speed){
+    robot.mtrBL.setPower(-(Math.cos(direction - directionFix) * (speed/100)));
+    robot.mtrFR.setPower(Math.cos(direction - directionFix) * (speed/100));
+    robot.mtrBR.setPower(-(Math.sin(direction - directionFix) * (speed/100)));
+    robot.mtrFL.setPower(math.sin(direction - directionFix) * (speed/100));
+  } 
+  public int triggerRead (String trigger, int min, int max){
     if (tirgger = "left"){
         return Range.clip(robot.gamepad1.left_trigger, min, max); 
     }
@@ -24,7 +34,16 @@ public class HoloX{
     }
   }
   
-  public stickRead (String stick, String value, int min, int max,){
+  public boolean isRed(int thresh){
+    if (sensorColor.red > thresh){
+      return true;
+    }
+    else {
+      return false
+    }
+  }
+  
+  public int stickRead (String stick, String value, int min, int max,){
     if (stick = "rignt" || stick = "Right"){
         if (value = "x" || value = "X"){
             return Range.clip(robot.gamepad1.right_stick_x, min, max);
@@ -52,7 +71,7 @@ public class HoloX{
     }
   }
   
-  public getStickAngle(String stick){
+  public int getStickAngle(String stick){
         return (Math.atan2(stickRead(stick, x, -1, 1), stickRead(stick, y, -1, 1) * (180 / Math.PI));
   }
   
