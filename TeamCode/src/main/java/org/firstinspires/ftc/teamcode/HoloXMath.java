@@ -9,7 +9,9 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 import com.qualcomm.robotcore.util.Range;
 
 public class HoloX{
-
+  public HoloX(){
+  
+  }
   public triggerRead (String trigger, int min, int max){
     if (tirgger = "left"){
         return Range.clip(robot.gamepad1.left_trigger, min, max); 
