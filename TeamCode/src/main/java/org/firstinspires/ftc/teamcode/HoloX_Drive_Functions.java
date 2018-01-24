@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.TeamCode;
+package org.firstinspires.ftc.teamcode;
 package java.math;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
